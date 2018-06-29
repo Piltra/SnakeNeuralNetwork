@@ -21,6 +21,9 @@ class Snake:
 	def cambiaDireccion(self, o):
 		self._cabeza.o(o)
 
+	def avanza(self, width, height):
+		
+
 
 	"""
 	Se ha de mirar que la parte se genere en un espacio libre =>
