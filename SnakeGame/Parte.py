@@ -12,6 +12,13 @@ https://docs.python.org/3/library/functions.html#property
 Aquí está el porqué utilizar el @property
 
 """
+	"""
+	dir es la dirección en la que va a avanzar, un vector
+	"""
+	def avanza(self, dir):
+		cc = self._coord
+		self._coord.x(cc.x() + dir.x())
+		self._coord.y(cc.y() + dir.y())
 
 	@property
 	def coord(self):
